@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- DEVELOPER: Dana Cuan, IS117-001, Fall 2024 -->
+    <meta charset="UTF-8">
+    <title>My First Bootstrap Page</title>
+    <link rel="shortcut icon" href="images/sunlogo.png">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+          crossorigin="anonymous">
+    <link href="css/main.css" rel="stylesheet">
+
+</head>
+<body>
+<div class="container-fluid">
+    <div class="row">
+            <nav class="navbar navbar-expand-md justify-content-start bg-dark navbar-dark col-12">
+
+                <!-- Brand -->
+                <a class="navbar-brand" href="index.html"><img src="images/sunlogo.png" alt="logo" width="30px">  Cuan Recipe Archive</a>
+                <!-- Responsive Button for the smaller menu -->
+                <button class="navbar-toggler" type="button"
+                        data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                    <ul class="navbar-nav">
+                        <!-- Links -->
+                        <li class="nav-item">
+                            <a class="nav-link" href="maindishes.html">Main Dishes</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="sides.html">Sides</a>
+                        </li>
+
+                        <!-- Dropdown -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbardrop"
+                               data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Desserts
+                            </a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="pastries.html">Pastries</a>
+                                <a class="dropdown-item" href="cakes.html">Cakes</a>
+                                <a class="dropdown-item" href="other.html">Other</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+    <div class="col-sm-6" class="pagetitle">
+        <h1>Cuan Recipe Archive</h1>
+    </div>
+    <img class="img-fluid" src="images/foodbanner.jpg" alt="food banner">
+    <div class="col-sm-6" class="pagetitle">
+        <br>
+        <h3>About the Author</h3>
+    </div>
+    <div class="col-sm-12">
+        <img class="img-fluid" src="images/authorphoto.jpg" alt="author photo" width=250px style="float: right; padding: 2%;">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque eu hendrerit elit, vel suscipit nibh. Suspendisse vulputate 
+        felis nec ligula malesuada, et mattis turpis posuere. Aliquam pharetra rhoncus purus at semper. Etiam non aliquam urna. Nulla lacus 
+        nulla, porta sed maximus et, eleifend sed magna. Mauris eu mauris non risus ornare dictum. Nullam vel tincidunt justo. Suspendisse 
+        potenti. Vestibulum id magna diam. Nulla facilisi. Phasellus id convallis turpis. Mauris sit amet sodales felis. Nulla ultrices tempus 
+        odio eget finibus. Curabitur eu felis ullamcorper nisi gravida pellentesque vitae a urna. Integer non velit vulputate, tincidunt dolor 
+        sed, mattis nisi.
+        <br><br>
+        Etiam id sapien quis purus tempus tincidunt. Pellentesque pellentesque, magna viverra fermentum aliquet, nulla sapien elementum eros, a 
+        vulputate diam mauris at enim. Donec sagittis semper quam, non interdum justo tincidunt eu. Sed in augue eu tortor pharetra aliquet vel 
+        eu lorem. Pellentesque in felis molestie, laoreet lorem vitae, consectetur leo. Maecenas velit mi, vestibulum quis pellentesque eget, 
+        luctus a nulla. Morbi vehicula lobortis augue eu ultrices. Curabitur rutrum nibh vitae nunc placerat dictum. Nulla cursus eros sed lorem 
+        rutrum porta. Aliquam imperdiet viverra purus, eget rutrum purus maximus sit amet. Pellentesque non interdum eros. Mauris mi tortor, 
+        pellentesque vel libero ut.
+        <br><br>
+        Etiam est nisl, tincidunt sed sodales iaculis, tempus quis erat. Morbi et facilisis augue. Nulla et urna sollicitudin, lacinia sem 
+        vitae, interdum ex. Phasellus sit amet tortor ornare, mattis orci nec, pharetra mauris. Curabitur diam massa, congue in erat ac, 
+        ullamcorper lacinia sem. Nam congue lobortis neque. Proin facilisis interdum posuere. Mauris non quam elit. Cras sit amet augue dolor. 
+        Mauris vel cursus augue.
+        <br><br>
+        Nam tristique, urna eu feugiat egestas, sapien felis condimentum erat, sed iaculis tellus leo ut sapien. Vivamus ac pellentesque risus. 
+        Mauris aliquam, magna ut blandit bibendum, neque ligula iaculis metus, ut ullamcorper dui arcu quis elit. Ut id pellentesque urna, 
+        porttitor rhoncus dui. Integer venenatis libero leo, in mattis ligula pellentesque et. Nullam et leo viverra, interdum metus quis, 
+        accumsan orci. Donec commodo vulputate congue. Maecenas dictum augue viverra, ultrices odio id, pretium ipsum. Suspendisse nec diam 
+        tincidunt, rhoncus ante vel, vulputate orci. Nam interdum pharetra felis. Sed pellentesque eu neque in pulvinar. Class aptent taciti 
+        sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Donec tempus nulla nec sem lobortis ornare. Sed sodales odio et 
+        orci finibus, non imperdiet nunc tempus. Nulla consectetur dapibus sapien, eget euismod sapien. Sed hendrerit felis eu lacinia lacinia.
+        <br><br>
+        Donec non libero nisi. Pellentesque orci eros, condimentum vestibulum lacinia eget, molestie in dui. Integer a bibendum tellus, at 
+        interdum velit. Phasellus eget quam non nisi commodo vehicula sed eu ipsum. Donec laoreet, felis eget sagittis aliquam, magna augue 
+        laoreet augue, vel varius lectus neque in enim. Nam vulputate lorem.
+        <br><br></p>
+    </div>
+</div>
+ <footer class="footer page-footer font-small ">
+     <div class="container">
+        <div class="row">
+            <span class="text-muted">&copy; Dana Cuan IS117-001 |  Terms Of Use  |  Privacy Statement</span>
+        </div>
+     </div>
+  </footer>
+</div>
+
+
+    <!-- Javascript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous">
+</script>
+
+</body>
+</html>

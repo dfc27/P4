@@ -1,0 +1,26 @@
+/* DEVELOPER: Dana Cuan, IS117-001, Fall 2024 */
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(255, 245, 234);
+}
+.pagetitle {
+    font-weight: bolder;
+}
+.card {
+    background-color: bisque;
+}
+.btn {
+    background-color: brown;
+}
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: bisque;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 0.5rem;
+}
